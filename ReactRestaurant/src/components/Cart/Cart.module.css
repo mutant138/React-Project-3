@@ -6,17 +6,38 @@
     overflow: auto;
   }
   
-  .total {
+  .cart-item {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    font-weight: bold;
-    font-size: 1.5rem;
     margin: 1rem 0;
+    padding-bottom: 0.5rem;
+    border-bottom: 1px solid #ccc;
   }
   
-  .actions {
-    text-align: right;
+  .cart-item h2 {
+    margin: 0 0 0.5rem 0;
+    color: #2c3e50;
+  }
+  
+  .summary {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 10rem;
+  }
+  
+  .price {
+    font-weight: bold;
+    color: #8a2b06;
+  }
+  
+  .amount {
+    font-weight: bold;
+    border: 1px solid #ccc;
+    padding: 0.25rem 0.75rem;
+    border-radius: 6px;
+    color: #363636;
   }
   
   .actions button {
@@ -44,3 +65,13 @@
     background-color: #8a2b06;
     color: white;
   }
+  
+  .total {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-weight: bold;
+    font-size: 1.5rem;
+    margin: 1rem 0;
+  }
+  
